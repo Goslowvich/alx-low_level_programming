@@ -1,5 +1,4 @@
-#include <stdio.h>
-		
+#include <stdio.h>	
 /**
  * Main - Entry point
  *
@@ -10,7 +9,7 @@ int main(void)
 {
 int a;
 long int b;
-long long int c;
+long long c;
 char d;
 float f;
 	printf("Size of a char %lu byte(s)\n", sizeof(d)); 
