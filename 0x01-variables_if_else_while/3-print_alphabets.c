@@ -3,6 +3,7 @@
 
 /**
  * main - printing from a-z & A-Z
+ * Return: Always 0
  */
 int main(void)
 {
