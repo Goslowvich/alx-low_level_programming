@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - printing the conbination of three numbers
+ *
  * Return: always 0
  */
 int main(void)
@@ -18,7 +19,7 @@ int main(void)
 	putchar((c % 10) + '0');
 	if (a == 7 && b == 8 && c == 9)
 	continue;
-	putchar('');
+	putchar(' ');
 	}
 	}
 	}
