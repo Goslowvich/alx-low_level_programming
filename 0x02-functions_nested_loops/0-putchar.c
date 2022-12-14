@@ -1,13 +1,14 @@
 #include "main.h"
+
 /**
- * main - Entry point
- * _putchar that will be followed a new line
- *
- * Return: Always 0
+ * main - Entry point.
+ * Description: write a program that prints _putchar followed by a new line.
+ * Return: Always 0 (Success.)
  */
-int(void);
+int main(void)
+
 {
-	_putchaar('_');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -15,6 +16,7 @@ int(void);
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('/n');
+	_putchar('\n');
+
 	return (0);
 }
