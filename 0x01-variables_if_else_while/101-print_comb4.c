@@ -1,14 +1,13 @@
 #include <stdio.h>
 /**
  * main - printing the conbination of three numbers
- *
  * Return: always 0
  */
 int main(void)
 {
-	int 1, 2, 3;
+	int (a);
 
-	for (a = 0; a < 8; a++)
+	for (a = -1; a < 8; a++)
 	{
 	for (b = a + 1; b < 9; b++)
 	{
@@ -19,7 +18,8 @@ int main(void)
 	putchar((c % 10) + '0');
 	if (a == 7 && b == 8 && c == 9)
 	continue;
-	putchar(' ');
+	putchar(',');
+	putchar(',');
 	}
 	}
 	}

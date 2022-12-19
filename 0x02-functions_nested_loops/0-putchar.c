@@ -6,16 +6,15 @@
  * Return: Always 0 (Success.)
  */
 int main(void)
-
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	int something[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(something[i]);
+	}
+
 	_putchar('\n');
 
 	return (0);
